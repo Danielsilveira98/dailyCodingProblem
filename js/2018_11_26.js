@@ -26,5 +26,5 @@ const solution = (k, list) => {
       index = list.length
     }
   }
-  return result
+  return result.length == 2
 }

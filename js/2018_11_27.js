@@ -30,5 +30,3 @@ const resolutionWithBonus = list => {
     return list.reduce((tot, act, i2) => i2 != i ? tot * act : tot , 1)
   })
 }
-
-console.log(resolutionWithBonus([1, 2, 3, 4, 5]))
