@@ -24,3 +24,11 @@ const resolution = list => {
     return list.reduce((tot, act) => tot * act , 1) / el
   })
 }
+
+const resolutionWithBonus = list => {
+  return list.map( (el, i) => {
+    return list.reduce((tot, act, i2) => i2 != i ? tot * act : tot , 1)
+  })
+}
+
+console.log(resolutionWithBonus([1, 2, 3, 4, 5]))
