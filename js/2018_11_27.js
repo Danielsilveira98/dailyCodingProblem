@@ -1,6 +1,4 @@
 /********************************************************************************
-* Good morning! Here's your coding interview problem for today.                 *
-*                                                                               *
 * This problem was asked by Uber.                                               *
 *                                                                               *
 * Given an array of integers, return a new array such that each element at index*
@@ -12,11 +10,6 @@
 * be [2, 3, 6].                                                                 *
 *                                                                               *
 * Follow-up: what if you can't use division?                                    *
-*                                                                               *
-* Upgrade to premium and get in-depth solutions to every problem.               *
-*                                                                               *
-* If you liked this problem, feel free to forward it along so they can subscribe*
-* here! As always, shoot us an email if there's anything we can help with!      *
 *********************************************************************************/
 
 const resolution = list => {
